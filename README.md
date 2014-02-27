@@ -6,8 +6,8 @@ Trusted build: [mirkokiefer/logstash](https://index.docker.io/u/mirkokiefer/logs
 - [mirkokiefer/java](https://github.com/mirkokiefer/java)
 
 **Runtime Dependencies**:
-- [mirkokiefer/redis](https://github.com/mirkokiefer/redis)
-- [mirkokiefer/elasticsearch](https://github.com/mirkokiefer/elasticsearch)
+- [mirkokiefer/redis](https://github.com/mirkokiefer/dockerfile-redis)
+- [mirkokiefer/elasticsearch](https://github.com/mirkokiefer/dockerfile-elasticsearch)
 
 The logstash indexer can be run with:
 
