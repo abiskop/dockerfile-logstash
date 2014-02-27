@@ -3,7 +3,7 @@
 Trusted build: [mirkokiefer/logstash](https://index.docker.io/u/mirkokiefer/logstash/).
 
 **Build Dependencies**:
-- [mirkokiefer/java](https://github.com/mirkokiefer/java)
+- [mirkokiefer/java](https://github.com/mirkokiefer/dockerfile-java)
 
 **Runtime Dependencies**:
 - [mirkokiefer/redis](https://github.com/mirkokiefer/dockerfile-redis)
