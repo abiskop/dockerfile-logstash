@@ -1,13 +1,13 @@
 #Dockerfile for logstash
 
-Trusted build: [mirkokiefer/logstash](https://index.docker.io/u/mirkokiefer/logstash/).
+Trusted build: [abiskop/logstash](https://index.docker.io/u/abiskop/logstash/).
 
 **Build Dependencies**:
-- [mirkokiefer/java](https://github.com/mirkokiefer/dockerfile-java)
+- [abiskop/openjdk](https://github.com/abiskop/dockerfile-openjdk)
 
 **Runtime Dependencies**:
 - [mirkokiefer/redis](https://github.com/mirkokiefer/dockerfile-redis)
-- [mirkokiefer/elasticsearch](https://github.com/mirkokiefer/dockerfile-elasticsearch)
+- [abiskop/elasticsearch](https://github.com/abiskop/dockerfile-elasticsearch)
 
 The logstash indexer can be run with:
 
