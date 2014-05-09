@@ -30,10 +30,6 @@
         }
       }],
       "properties": {
-        "body.cards": {
-          "type": "nested",
-          "include_in_parent": true
-        },
         "geoip": {
           "dynamic": true,
           "path": "full",
