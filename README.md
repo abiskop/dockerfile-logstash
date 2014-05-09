@@ -12,7 +12,7 @@ Trusted build: [abiskop/logstash](https://index.docker.io/u/abiskop/logstash/).
 The logstash indexer can be run with:
 
 ```
-docker run --link redis:redis --link es:es -i -t mirkokiefer/logstash bash /logstash-indexer.sh
+docker run --link redis:redis --link es:es -i -t abiskop/logstash bash /logstash-indexer.sh
 ```
 
 This requires named instance for redis and elasticsearch.
