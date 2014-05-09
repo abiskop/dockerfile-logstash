@@ -17,5 +17,8 @@ output {
 
   elasticsearch_http {
     host => "{es_host}"
+    template => "/elasticsearch-template.logstash.json"
+    template_name => "logstash"
+    template_overwrite => "true"
   }
 }
